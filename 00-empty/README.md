@@ -1,5 +1,5 @@
 Run the app:
-    
+
     sbt run
 
 Run the app via explicit main method:
