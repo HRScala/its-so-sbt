@@ -9,7 +9,7 @@ trait Default {
   )
 }
 
-object Build extends Build with Default {
+object MyBuild extends Build with Default {
 
   lazy val api = Project(
     "api"
