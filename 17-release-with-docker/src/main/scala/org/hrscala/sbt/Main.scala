@@ -16,5 +16,4 @@ object Main extends App with SimpleRoutingApp with PlayTwirlSupport {
       }
     }
   }
-  
 }
