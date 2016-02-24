@@ -12,6 +12,7 @@ class MathTest
 """
 
   def compareTest = Prop.forAll { (a: Int, b: Int) =>
-    pending
+    1 === 3
+   // pending
   }
 }

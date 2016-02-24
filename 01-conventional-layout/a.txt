@@ -1,0 +1,52 @@
+[info] Loading project definition from D:\Code\its-so-sbt\01-conventional-layout\project
+[info] Set current project to root-01-conventional-layout (in build file:/D:/Code/its-so-sbt/01-conventional-layout/)
+[info] default:root-01-conventional-layout_2.11:0.1-SNAPSHOT [S]
+[info]   +-com.github.nscala-time:nscala-time_2.11:2.10.0 [S]
+[info]   | +-joda-time:joda-time:2.9.2
+[info]   | +-org.joda:joda-convert:1.2
+[info]   | 
+[info]   +-com.github.scala-incubator.io:scala-io-file_2.11:0.4.3-1 [S]
+[info]   | +-com.github.scala-incubator.io:scala-io-core_2.11:0.4.3-1 [S]
+[info]   | | +-com.madgag:scala-arm_2.11:1.3.3 [S]
+[info]   | | | +-org.scala-lang.plugins:scala-continuations-library_2.11:1.0.1 [S]
+[info]   | | | 
+[info]   | | +-org.scala-lang.modules:scala-parser-combinators_2.11:1.0.1 [S] (evicte..
+[info]   | | +-org.scala-lang.modules:scala-parser-combinators_2.11:1.0.4 [S]
+[info]   | | 
+[info]   | +-org.scala-lang.modules:scala-parser-combinators_2.11:1.0.1 [S] (evicted ..
+[info]   | +-org.scala-lang.modules:scala-parser-combinators_2.11:1.0.4 [S]
+[info]   | 
+[info]   +-org.specs2:specs2-scalacheck_2.11:3.7.1 [S]
+[info]     +-org.scalacheck:scalacheck_2.11:1.13.0 [S]
+[info]     | +-org.scala-sbt:test-interface:1.0
+[info]     | 
+[info]     +-org.specs2:specs2-core_2.11:3.7.1 [S]
+[info]       +-org.scala-lang:scala-reflect:2.11.7 [S]
+[info]       +-org.specs2:specs2-matcher_2.11:3.7.1 [S]
+[info]         +-org.specs2:specs2-common_2.11:3.7.1 [S]
+[info]           +-org.scala-lang:scala-reflect:2.11.7 [S]
+[info]           +-org.scalaz.stream:scalaz-stream_2.11:0.8a [S]
+[info]           | +-org.scalaz:scalaz-concurrent_2.11:7.2.0 [S]
+[info]           | | +-org.scalaz:scalaz-core_2.11:7.2.0 [S]
+[info]           | | +-org.scalaz:scalaz-effect_2.11:7.2.0 [S]
+[info]           | |   +-org.scalaz:scalaz-core_2.11:7.2.0 [S]
+[info]           | |   
+[info]           | +-org.scalaz:scalaz-core_2.11:7.2.0 [S]
+[info]           | +-org.scodec:scodec-bits_2.11:1.0.12 [S]
+[info]           | 
+[info]           +-org.scalaz:scalaz-concurrent_2.11:7.2.0 [S]
+[info]           | +-org.scalaz:scalaz-core_2.11:7.2.0 [S]
+[info]           | +-org.scalaz:scalaz-effect_2.11:7.2.0 [S]
+[info]           |   +-org.scalaz:scalaz-core_2.11:7.2.0 [S]
+[info]           |   
+[info]           +-org.scalaz:scalaz-core_2.11:7.2.0 [S]
+[info]           +-org.scalaz:scalaz-effect_2.11:7.2.0 [S]
+[info]           | +-org.scalaz:scalaz-core_2.11:7.2.0 [S]
+[info]           | 
+[info]           +-org.spire-math:kind-projector_2.11:0.7.1 [S]
+[info]             +-org.scala-lang:scala-compiler:2.11.7 [S]
+[info]               +-org.scala-lang.modules:scala-parser-combinators_2.11:1.0.4 [S]
+[info]               +-org.scala-lang.modules:scala-xml_2.11:1.0.4 [S]
+[info]               +-org.scala-lang:scala-reflect:2.11.7 [S]
+[info]               
+[success] Total time: 0 s, completed 24.02.2016. 19:48:19

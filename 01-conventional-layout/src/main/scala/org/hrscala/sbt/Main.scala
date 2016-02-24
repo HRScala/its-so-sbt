@@ -20,5 +20,6 @@ import com.github.nscala_time.time.Imports._
 object Clock extends App {
   println("=" * 100)
   println(DateTime.now)
+  println(DateTime.now)
   println("-" * 100)
 }

@@ -11,7 +11,7 @@ object Main extends App with SimpleRoutingApp with PlayTwirlSupport {
     get {
       path("hello") {
         complete {
-          html.MainTemplate("Ivan" :: "Marko" :: Nil)
+          html.MainTemplate("Ivan" :: "Maridypupyfhiko" :: Nil)
         }
       }
     }
