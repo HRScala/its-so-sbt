@@ -1,6 +1,7 @@
 name := "release-with-docker"
-scalaVersion := "2.11.7"
 version := "1.0.0-SNAPSHOT"
+
+scalaVersion := "2.11.7"
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor" % "2.3.12",

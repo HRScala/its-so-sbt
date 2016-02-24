@@ -1,4 +1,3 @@
-
 lazy val commonSettings = Seq(
   organization := "org.hrscala.sbt"
   , version := "0.0.1"
