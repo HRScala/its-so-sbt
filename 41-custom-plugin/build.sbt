@@ -1,7 +1,7 @@
 sbtPlugin := true
 
 organization := "org.hrscala.sbt"
-version := "0.0.1"
+version := "0.0.3"
 
 lazy val project = Project("youll-never-catch-me-alive", file("."))
 

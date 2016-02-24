@@ -1,7 +1,7 @@
 import java.util.concurrent.atomic.AtomicInteger
 
-val privateHyperCounter = settingKey[AtomicInteger]("Start value of hyper counter.")
 val hyperCounterStart = settingKey[Int]("Start value of hyper counter.")
+val privateHyperCounter = settingKey[AtomicInteger]("Start value of hyper counter.")
 
 val incHyperCounter = taskKey[Unit]("Increase hyper counter.")
 val hyperCounter = taskKey[Int]("Get current value of hyper counter.")

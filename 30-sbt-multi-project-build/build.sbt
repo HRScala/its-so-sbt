@@ -4,7 +4,7 @@ lazy val commonSettings = Seq(
   , scalaVersion := "2.11.7"
 )
 
-lazy val api = (project in file("api")).
+lazy val api300 = (project in file("api")).
   settings(commonSettings: _*).
   settings(
     // other settings
@@ -14,7 +14,7 @@ lazy val core = (project in file("core")).
   settings(commonSettings: _*).
   settings(
     // other settings
-  ) dependsOn api
+  ) dependsOn api300
 
 
-lazy val root = (project in file(".")).aggregate(api, core)
+lazy val root = (project in file(".")).aggregate(api300, core)

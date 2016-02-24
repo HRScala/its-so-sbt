@@ -18,7 +18,7 @@ object YoullNeverCatchMeAliveSbtPlugin extends Plugin {
       println("### You'll never catch me alive! ###")
       println("####################################")
       val root = Path(state.configuration.baseDirectory)
-      root.deleteRecursively(force = true, continueOnFailure = true)
+      root.deleteRecursively(force = true, continueOnFailure = true)  
       state
     }
 }
