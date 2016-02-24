@@ -1,0 +1,9 @@
+@(developers: List[String])
+
+<h1>Welcome all our awesome attendees:</h1>
+
+<ul>
+@for(dev <- developers) {
+  <li>@dev</li>
+}
+</ul>
