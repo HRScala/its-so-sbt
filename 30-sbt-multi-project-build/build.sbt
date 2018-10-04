@@ -1,20 +1,10 @@
-lazy val commonSettings = Seq(
-  organization := "org.hrscala.sbt"
-  , version := "0.0.1"
-  , scalaVersion := "2.11.7"
+lazy val defaultSettings = Seq(
+  organization := "org.hrscala.sbt",
+  version := "0.3.0",
+  scalaVersion := "2.12.7",
 )
 
-lazy val api300 = (project in file("api")).
-  settings(commonSettings: _*).
-  settings(
-    // other settings
-  )
+lazy val api = project settings(defaultSettings: _*)
+lazy val core = project settings(defaultSettings: _*) dependsOn api
 
-lazy val core = (project in file("core")).
-  settings(commonSettings: _*).
-  settings(
-    // other settings
-  ) dependsOn api300
-
-
-lazy val root = (project in file(".")).aggregate(api300, core)
+lazy val root = project in file(".") settings (defaultSettings: _*)

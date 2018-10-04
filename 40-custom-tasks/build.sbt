@@ -6,18 +6,18 @@ val privateHyperCounter = settingKey[AtomicInteger]("Start value of hyper counte
 val incHyperCounter = taskKey[Unit]("Increase hyper counter.")
 val hyperCounter = taskKey[Int]("Get current value of hyper counter.")
 
-scalaVersion := "2.11.7"
+scalaVersion := "2.12.7"
 
 val commonSettings = Seq(
   privateHyperCounter := {
     new AtomicInteger(hyperCounterStart.value)
-  }
-, incHyperCounter := {
+  },
+  incHyperCounter := {
     privateHyperCounter.value.incrementAndGet
-  }
-, hyperCounter := {
+  },
+  hyperCounter := {
     privateHyperCounter.value.get
-  }
+  },
 )
 
 val first = (project
